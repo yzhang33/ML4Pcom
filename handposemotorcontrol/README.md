@@ -15,9 +15,9 @@ I learned this set up from last year's pcom class.
 
 # ML and Arduino 
 
-Arduino code is pretty simple. Since for motors we can use analog output, speed of motor will have range from 0 to 255. Simply read serial input and write to output pin.
+Arduino code is pretty simple. Since for motors, we can use analog output, the speed of the motor will have a range from 0 to 255. Simply read serial input and write to the output pin.
 
-For handpose, I used the index fingertip and thumb tip's distance as the controllor. Calculating the distance and mapping it from 0 to 255 will do.  Handpose is not stable sometimes which could cause some error. 
+For the hand pose, I used the index fingertip and thumb tip's distance as the controller. Calculating the distance and mapping it from 0 to 255 will do.  Hand pose is not stable sometimes which could cause some error. 
 
 [p5 sketch](https://editor.p5js.org/yzhang33/sketches/EW2-mAia9)
 
